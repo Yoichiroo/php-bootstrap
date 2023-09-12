@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+nav {
+    padding: 0.5rem!important;
+}
+
+button {
+    width: 100px;
+    padding: 0.2rem;
+    margin: 0!important;
+}
