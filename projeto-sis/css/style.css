@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+:root {
+    --cor01: #fff;
+    --cor02: #000;
+    --cor03: #3590F3;
+    --cor04: #54F2F2;
+    --cor05: #EF5B5B;
+}
+
+html, body {
+    background-color: var(--cor03)!important;
+}
+
+
+main {
+    background-color: var(--cor01);
+    padding: 2rem !important;
+    border-radius: 20px;
+    margin: 2rem auto;
+    width: 80vw !important;
+}
+
+.btn {
+    border: 0!important;
+    padding: 0.5rem;
+    margin: 0 0.1rem;
+}
+
+.btn-danger {
+    background-color: var(--cor05);
+}
+
+.btn-info {
+    background-color: var(--cor04   )
+}
+
+.btn-primary {
+    background-color: var(--cor03);
+}
